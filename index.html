@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Cricket</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700,800,400italic,700italic,800italic' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cricket-padding-remove cricket-container et-animated-content" id="page-container" style="margin-top: -1px;">
+		<header class="navbar navbar-default navbar-fixed-top">
+	        <div class="container">
+	            <div class="navbar-header">
+	                <a class="navbar-brand" href="index.html"><img src="images/logo-header.png" alt="logo"></a>
+					<label class="hamburger">
+						<span></span>
+						<span></span>
+						<span></span>
+					</label>
+	            </div>
+	            <!--<nav id="bs-navbar" class="collapse navbar-collapse">-->
+	                <ul class="nav navbar-nav menu navbar-right">
+						<li><a href="#howToWork" style="font-family: 'Open Sans', sans-serif !important;">How it Works</a></li>
+						<li><a href="#aboutUs" style="font-family: 'Open Sans', sans-serif !important;">About the Game</a></li>
+						<!-- <li><a href="#leagues" style="font-family: 'Open Sans', sans-serif !important;">Leagues</a></li> -->
+						<li><a href="#gameBenefits" style="font-family: 'Open Sans', sans-serif !important;">Benefits</a></li>
+						<li><a href="#gameFaq" style="font-family: 'Open Sans', sans-serif !important;">FAQ</a></li>
+					</ul>
+	            <!--</nav>-->
+	        </div>
+	    </header>
+		<section class="col-sm-12 cricket-padding-remove cricket-banner-information">
+			<div class="col-sm-12 cricket-padding-remove cricket-banner-images">
+				<div class="container">
+					<div class="row">
+						<div class="cricket-register">
+							<a href="register.html">
+								<button class="btn btn-reverse btn-arrow cricket-register-btn">
+    								<span style="font-family: 'Open Sans', sans-serif;">REGISTER<i class="fa fa-angle-right cricket-resigter-arrow" aria-hidden="true"></i></span>
+  								</button>
+							</a>
+						</div>
+						<div class="col-sm-12 cricket-padding-remove cricket-logo-shadow">
+							<img src="images/logo-shadow-1200px.png" alt="logo">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="cricket-howtowork" id="howToWork">
+			<div class="container">
+				<div class="cl-sm-12 cricket-howtowork-header">
+					<h1><strong>HOW IT WORKS</strong></h1>
+				</div>
+				<div class="cl-sm-12 cricket-howtowork-section">
+					<div class="col-md-4 col-sm-12 cricket-howtowork-section-player">
+						<div class="col-sm-12">
+							<div class="cricket-player-width">
+								<img src="images/player.png">
+							</div>
+						</div>
+						<h3 style="">PLAYERS</h3>
+						<ul>
+							<li>Begin with 10 CrickCoins and an 8-card deck.</li>
+							<li>Join battles to win experience and reputation.</li>
+							<li>Upgrade your cards based on activity (e.g., game participation, win/loss).</li>
+							<li>Build a deck or buy one suitable for your strategy and playstyle.</li>
+							<li>Join free tournaments and win to earn CrickCoins.</li>
+							<li>Rise to the top of the leaderboards and get drafted by team owners to play on their behalf.</li>
+							<li>Earn Gol Coins from weekly contracts; by selling cards/decks; or&nbsp;by sellingl upgraded cards via the Auction House.</li>
+							<li>Exchange Gol Coins for real money whenever you want to leave the ecosystem.</li>
+							<li>Withdrawal requires 10 Gol coins minimum and is only allowed once a week.</li>
+						</ul>					
+					</div>
+					<div class="col-md-4 col-sm-12 cricket-howtowork-section-player">
+						<div class="col-sm-12">
+							<div class="cricket-player-width">
+								<img src="images/tournament.png">
+							</div>
+						</div>
+						<h3>TOURNAMENTS</h3>
+						<ul>
+							<li>Players drafted into teams play all games exclusively on behalf of their team.</li>
+							<li>Tournaments always involve team vs. team play.</li>
+							<li>The most active teams have the highest chance of winning.</li>
+							<li>Scores are calculated for the team as a whole.</li>
+							<li>Top teams win prizes.</li>
+							<li>25+ types of tournaments are available.</li>
+							<li>Players cannot enter into team tournaments.</li>
+							<li>One free tournament is available per week.</li>
+						</ul>
+						<div class="col-sm-12">
+							<div class="cricket-player-winner">
+								<img src="images/trophy.png">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4  col-sm-12 cricket-howtowork-section-player">
+						<div class="col-sm-12">
+							<div class="cricket-player-width">
+								<img src="images/owners.png">
+							</div>
+						</div>
+						<h3>OWNERS</h3>
+						<ul>
+							<li>Join a Silver ($100), Gold ($1,000) or Platinum ($5,000) league.</li>
+							<li>Get Gol Coins, CrickCoins, and free tournament entries based on your league.</li>
+							<li>Track player performance and build your weekly team by offering paid contracts.</li>
+							<li>Enter tournaments to win Gol Coins and CrickCoins.</li>
+							<li>Share the spoils with your team if you wish.</li>
+							<li>Free and paid tournaments run all year round.</li>
+							<li>Tournament entry is restricted based on league.</li>
+							<li>Join 25+ types of tournaments with a different strategy for each.</li>
+							<!--<li>Earn 20% from each team member’s tournament winnings.</li>-->
+							<li>Convert Gol Coins to real money when you decide to leave the ecosystem.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="col-sm-12 cricket-padding-remove cricket-about-us" id="aboutUs">
+			<div class="container">
+				<div class="col-sm-12" style="padding: 2% 0; display: -webkit-flex; display: flex;  -webkit-flex-flow: row wrap;  flex-flow: row wrap;">
+					<div class="col-md-4 col-sm-12 col-xs-12 cricket-padding-remove cricket-about-us-mobile-images">
+						<div class="col-sm-12 cricket-about-us-mobile cricket-padding-remove">
+							<img src="images/01.png">
+						</div>
+					</div>
+					<div class="col-md-8 col-sm-12 cricket-about-us-mobile-content">
+						<div class="col-sm-12 cricket-about-us-content cricket-padding-remove">
+							<h1 style=""><strong>ABOUT THE GAME</strong></h1>
+							<p>Crypto Cricket is a mobile game developed and published by GoLive Games that combines the best of both worlds: one of the world’s favorite sports (cricket) and the leading edge of digital currency (cryptocurrency).</p>
+							<p>Description:</p>
+							<ul>
+								<li>A unique digital card game created by GoLive</li>
+								<li>A Turn Based Multiplayer Strategy game pitting Cricket fans and their strategies against one another</li>
+								<li>Players upgrade cards and participate in tournaments to win real world rewards</li>
+							</ul>
+							<p>Key Features:</p>
+							<ul>
+								<li>Blockchain enabled card collecting and trading game on Cricket</li>
+								<li>1000’s of real users to complete against</li>
+								<li>Play with friends in the Net Practice mode</li>
+								<li>Sell/Trade cards for real money rewards in the Auction House</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="col-sm-12 cricket-padding-remove cricket-leagues" id="leagues">
+			<div class="container">
+				<div class="col-sm-12 cricket-padding-remove cricket-leagues-header">
+					<h1><strong>LEAGUES</strong></h1>
+				</div>
+				<div class="col-sm-12 cricket-padding-remove" style="display: -webkit-flex; display: flex;  -webkit-flex-flow: row wrap;  flex-flow: row wrap;">
+					<div class="col-md-4 col-sm-12 col-xs-12 cricket-star-rating">
+						<div class="col-sm-12 col-xs-12">
+							<div class="cricket-leagues-stars">
+								<img src="images/silver.jpg">
+							</div>
+							<div class="cricket-leagues-content">
+								<h2>SILVER</h2>
+								<p style="text-align: center;">1st Prize = $750<br />
+								2nd Prize = $375<br />
+								3rd Prize = $250<br />
+								4th &#8211; 6th Prize = $125</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 cricket-star-rating cricket-padding-remove">
+						<div class="col-sm-12">
+							<div class="cricket-leagues-stars">
+								<img src="images/platinum.jpg">
+							</div>
+							<div class="cricket-leagues-content">
+								<h2>PLATINUM</h2>
+								<p style="text-align: center;">1st Prize = $4,800<br />
+								2nd Prize = $2,400<br />
+								3rd Prize = $1,600<br />
+								4th &#8211; 6th Prize = $800</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 cricket-star-rating">
+						<div class="col-sm-12">
+							<div class="cricket-leagues-stars">
+								<img src="images/gold.jpg">
+							</div>
+							<div class="cricket-leagues-content">
+								<h2>GOLD</h2>
+								<p style="text-align: center;">1st Prize = $3,200<br />
+								2nd Prize = $1,600<br />
+								3rd Prize = $1,067<br />
+								4th &#8211; 6th Prize = $533</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="col-sm-12 cricket-padding-remove cricket-bill-gates">
+			<div class="cricket-bill-gates-bg-image-css cricket-bill-gates-bg-image">
+				<div class="cricket-bill-gates-padding">
+					<div class="container">
+						<div class="col-sm-12 cricket-padding-remove cricket-bill-gates-container">
+							<div class="col-sm-12 cricket-bill-gates-content">
+								<p>&#8220;The future of money is digital currency.&#8221;</p>
+								<h2><strong>Bill Gates</strong></h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</section>
+		<section class="col-sm-12 cricket-padding-remove cricket-benefits" id="gameBenefits">
+			<div class="container">
+					<h1 style="text-align: center;"><b>BENEFITS</b></h1>	
+				<div class="col-sm-12 cricket-padding-remove cricket-benefits-container" style="display: -webkit-flex; display: flex;  -webkit-flex-flow: row wrap;  flex-flow: row wrap; clear: both;">
+					<div class="col-md-4 col-sm-12 col-xs-12 cricket-padding-remove cricket-benefits-silver cricket-benefits-order">
+						<div class="col-sm-12 cricket-padding-remove">
+							<div class="cricket-benefits-silver-header">
+								<h2>SILVER</h2>
+								<span>League</span>
+							</div>
+							<div class="cricket-benefits-silver-top-content">
+								<span class="benefits-span">
+									<span class="benefits-dollar-sign" style="margin-left: -10px;">$</span>
+									<span class="benefits-sum">100</span>
+								</span>
+							</div>
+							<div class="cricket-benefits-silver-content">
+								<ul class="cricket-benefits-silver-content-list">
+									<li>
+										<span>
+											<p style="text-align: center;">Unlimited Teams
+										</span>
+									</li>
+									<li>
+										<span>
+											<p style="text-align: center;">11 players
+										</span>
+									</li>
+									<li>
+										<span>
+											<p style="text-align: center;">100 Gol Coins
+										</span>
+									</li>
+									<li>
+										<span>
+											<p style="text-align: center;">1,000 CrickCoins
+										</span>
+									</li>
+									<li>
+										<span>
+											<p style="text-align: center;">50 Free Player Invites
+										</span>
+									</li>
+									<li>
+										<span>
+											<p style="text-align: center;">Entries into Silver Tournaments
+										</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 cricket-padding-remove cricket-benefits-gold cricket-benefits-order">
+						<div class="cricket-benefits-gold-header">
+							<h2>GOLD</h2>
+							<span>League</span>
+						</div>
+						<div class="cricket-benefits-gold-top-content">
+							<span class="benefits-span">
+								<span class="benefits-dollar-sign" style="margin-left: -10px;">$</span>
+								<span class="benefits-sum">1000</span>
+							</span>
+						</div>
+						<div class="cricket-benefits-gold-content">
+							<ul class="cricket-benefits-gold-content-list">
+								<li>
+									<span>
+										<p style="text-align: center;">120 Teams
+									</span>
+								</li>
+								<li>
+									<span>
+										<p style="text-align: center;">11 players
+									</span>
+								</li>
+								<li>
+									<span>
+										<p style="text-align: center;">1,000 Gol Coins
+									</span>
+								</li>
+								<li>
+									<span>
+										<p style="text-align: center;">10,000 CrickCoins
+									</span>
+								</li>
+								<li>
+									<span>
+										<p style="text-align: center;">100 Free Player Invites
+									</span>
+								</li>
+								<li>
+									<span>
+										<p style="text-align: center;">Entries into Gold & Silver Tournaments
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 cricket-padding-remove cricket-benefits-platinum cricket-benefits-order">
+						<div class="cricket-benefits-platinum-header">
+							<h2>PLATINUM</h2>
+							<span>League</span>
+						</div>
+						<div class="cricket-benefits-platinum-top-content">
+							<span class="benefits-span">
+								<span class="benefits-dollar-sign" style="margin-left: -10px;">$</span>
+								<span class="benefits-sum">5000</span>
+							</span>
+						</div>
+						<div class="cricket-benefits-platinum-content">
+							<ul class="cricket-benefits-platinum-content-list">
+								<li>
+									<span>
+										<p style="text-align: center;">16 Teams
+									</span>
+								</li>
+								<li>
+									<span>
+										<p style="text-align: center;">30 players
+									</span>
+								</li>
+								<li>
+									<span>
+										<p style="text-align: center;">5000 Gol Coins
+									</span>
+								</li>
+								<li>
+									<span>
+										<p style="text-align: center;">50,000 CrickCoins
+									</span>
+								</li>
+								<li>
+									<span>
+										<p style="text-align: center;">100 Free Player Invites
+									</span>
+								</li>
+								<li>
+									<span>
+										<p style="text-align: center;">Entries into Platinum, Gold & Silver Tournaments
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="col-sm-12 cricket-padding-remove cricket-FAQ" id="gameFaq">
+			<div class="container">
+				<div class="col-sm-12 cricket-padding-remove">
+					<div class="cricket-FAQ-header">
+						<h1><b>FAQ</b></h1>
+					</div>
+				</div>
+				<div class="col-sm-12 cricket-padding-remove" style="display: -webkit-flex; display: flex;  -webkit-flex-flow: row wrap;  flex-flow: row wrap;">
+					<div class="col-md-8 col-sm-12 col-xs-12 cricket-padding-remove cricket-FAQ-order">
+						<div class="col-sm-12 cricket-FAQ-content cricket-padding-FAQ">
+							<div class="col-md-12 col-sm-12 col-xs-12 cricket-padding-FAQ">
+            					<div class="panel-group wrap" id="bs-collapse">
+					                <div class="panel">
+					                    <div class="panel-heading ">
+					                        <h4 class="panel-title">
+        										<a data-toggle="collapse" data-parent="#bs-collapse" href="#one">What is the game about?<i class="fa fa-plus-circle"></i></a>
+        									</h4>
+                    					</div>
+					                    <div id="one" class="panel-collapse collapse">
+					                        <div class="panel-body">
+					                            <ol>
+													<li style="font-weight: 400;"><span style="font-weight: 400;">This is a CCG like <em>Clash Royale</em> or <em>Hearthstone</em>&nbsp;– but centered around Cricket.</span></li>
+													<li style="font-weight: 400;"><span style="font-weight: 400;">You can play two roles: Player or Team Owner (with opportunities to win crypto rewards).</span></li>
+													<li style="font-weight: 400;"><span style="font-weight: 400;">Players collect cards, play 1v1, participate in tournaments, and rise to the top of leaderboards.</span></li>
+													<li style="font-weight: 400;"><span style="font-weight: 400;">Team Owners draft players and demonstrate skills as able Team Managers to win loads of real-world prizes.</span></li>
+												</ol>
+					                        </div>
+					                    </div>
+                					</div>
+                <!-- end of panel -->
+					                <div class="panel ">
+					                    <div class="panel-heading ">
+					                        <h4 class="panel-title">
+        										<a data-toggle="collapse" data-parent="#bs-collapse" href="#two">How and when can I get the game?<i class="fa fa-plus-circle"></i></a>
+        									</h4>
+                    					</div>
+					                    <div id="two" class="panel-collapse collapse">
+					                        <div class="panel-body">
+					                            <p>Crypto Cricket will be released on the App Store and Google Play. Players can download the game from one of these stores when available. Team Owners can play via the mobile website. A Player WebApp is also available for players who want to win a lot of cryptocurrency rewards. The game will go live during late Q1 or early Q1 2018. There may be a beta launch a month prior to this.</p>
+					                        </div>
+					                    </div>
+            					    </div>
+                <!-- end of panel -->
+					                <div class="panel ">
+					                    <div class="panel-heading ">
+					                        <h4 class="panel-title">
+					        					<a data-toggle="collapse" data-parent="#bs-collapse" href="#three">
+					          					Why should I become an early adapter?<i class="fa fa-plus-circle"></i>
+					        					</a>
+					      					</h4>
+					                    </div>
+					                    <div id="three" class="panel-collapse collapse">
+					                        <div class="panel-body">
+					                            Early adapters are getting hefty offers. Please contact us at <a href="">cryptocricket@golive.games</a>
+					                        </div>
+					                    </div>
+					                </div>
+                <!-- end of panel -->
+					                <div class="panel ">
+					                    <div class="panel-heading ">
+					                        <h4 class="panel-title">
+					        					<a data-toggle="collapse" data-parent="#bs-collapse" href="#four">
+					         						How can I become a Gold or Platinum team owner?<i class="fa fa-plus-circle"></i>
+					        					</a>
+					      					</h4>
+					                    </div>
+					                    <div id="four" class="panel-collapse collapse">
+					                        <div class="panel-body">
+					                            <ol>
+													<li style="font-weight: 400;"><span style="font-weight: 400;">As a Team Owner you make money by doing the following: </span>
+														<ul>
+														<li style="font-weight: 400;"><span style="font-weight: 400;">Winning tournaments</span></li>
+														<li style="font-weight: 400;"><span style="font-weight: 400;">Selling off your team to someone else</span></li>
+														</ul>
+													</li>
+													<li><span style="font-weight: 400;">What are Gold Teams? What do I get if I own a Gold Team today? </span>
+														<ul>
+															<li style="font-weight: 400;"><span style="font-weight: 400;">Gold Teams are a special league where only 128 teams are present. This number will not change. Please refer to the table for what you get when you buy a Gold Team</span></li>
+														</ul>
+													</li>
+													<li>What is a Platinum Team? What do I get if I own a Platinum Team today?
+														<ul>
+															<li>Platinum Teams are a special league where only 16 teams are present. This number will not change. Please refer to the table for what you get when you buy a Platinum Team</li>
+														</ul>
+													</li>
+													<li style="font-weight: 400;"><span style="font-weight: 400;">As a Team Owner, can Isubstitute any team member? </span>
+														<ul>
+															<li style="font-weight: 400;"><span style="font-weight: 400;">Yes, you can substitute a team member any time. The score of the member moved out will not be included in the final team score calculation. </span></li>
+														</ul>
+													</li>
+												</ol>
+					                        </div>
+					                    </div>
+					                </div>
+					                <div class="panel">
+					                    <div class="panel-heading ">
+					                        <h4 class="panel-title">
+					        					<a data-toggle="collapse" data-parent="#bs-collapse" href="#five">
+					          					How do I become a player – and what are the benefits?<i class="fa fa-plus-circle"></i>
+					        					</a>
+					      					</h4>
+					                    </div>
+					                    <div id="five" class="panel-collapse collapse">
+					                        <div class="panel-body">
+					                            <ol>
+													<li style="font-weight: 400;"><span style="font-weight: 400;">What is the Early Bird Offer for Players?</span>
+														<ul>
+															<li style="font-weight: 400;"><span style="font-weight: 400;">Before April 1st, entry is only $1 with which you get one Gol Coins and 10 CrickCoins. The next offer is from April to June, where Players can enter at $5. The actual rate is $10, which will be effective from July 1st onwards. </span></li>
+														</ul>
+													</li>
+													<li style="font-weight: 400;"><span style="font-weight: 400;">As a Player, how can I make money in the game?</span>
+														<ol>
+															<li style="font-weight: 400;"><span style="font-weight: 400;">You can make money in 3 ways: </span>
+																<ul>
+																	<li style="font-weight: 400;"><span style="font-weight: 400;">Create rare and legendary cards and sell each card or a deck to others</span></li>
+																	<li style="font-weight: 400;"><span style="font-weight: 400;">Getting drafted into teams. You get a weekly contract to play on behalf of a team</span></li>
+																	<li style="font-weight: 400;"><span style="font-weight: 400;">You can sell the Player itself and all its cards to someone else. </span></li>
+																</ul>
+															</li>
+														</ol>
+													</li>
+												</ol>
+					                        </div>
+					                    </div>
+					                </div>
+					                <div class="panel ">
+					                    <div class="panel-heading ">
+					                        <h4 class="panel-title">
+					        					<a data-toggle="collapse" data-parent="#bs-collapse" href="#six">
+					          					What are the different tournament types?<i class="fa fa-plus-circle"></i>
+					        					</a>
+					      					</h4>
+					                    </div>
+					                    <div id="six" class="panel-collapse collapse">
+					                        <div class="panel-body">
+					                            <div class="jtrt_table_MotherShipContainer"><div class="jtTableContainer jtrespo-scroll  "><div class="jtsettingcontainer" style="display:none;position:absolute;left:-9999px;"><textarea data-jtrt-table-id="138" id="jtrt_table_settings_138" cols="30" rows="10">[[["Type","Win\/Loss","Win Condition 1"],["Knockout - Single Elimination","Win 2, Loss 1","Every player out of 11 players plays till he loses 1 match"],["Activity Based Tournament","Win 2, Loss 0","Player can play as many matches as they want to"],["Triple Elimination","Win 2, Loss 1","Player can\u2019t play beyond 3 losses"],["Team \u201cn\u201d Elimination","Win 2, Loss 1","As a team you can\u2019t lose more than \u201cn\u201d matches"],["Run-rate based tourneys",null,null],["Wicket Strike-rate based tourneys",null,null]],[{"row":0,"col":0,"visualRow":0,"visualCol":0,"prop":0,"borders":{"className":"border_row0col0","border":{"width":1,"color":"#000","cornerVisible":false},"row":0,"col":0,"top":{"hide":true},"right":{"hide":true},"bottom":{"hide":true},"left":{"hide":true}},"className":"htLeft"},{"row":0,"col":1,"visualRow":0,"visualCol":1,"prop":1,"className":"htLeft"},{"row":0,"col":2,"visualRow":0,"visualCol":2,"prop":2,"className":"htLeft"},{"row":1,"col":0,"visualRow":1,"visualCol":0,"prop":0,"className":"htLeft"},{"row":1,"col":1,"visualRow":1,"visualCol":1,"prop":1,"className":"htLeft"},{"row":1,"col":2,"visualRow":1,"visualCol":2,"prop":2,"className":"htLeft"},{"row":2,"col":0,"visualRow":2,"visualCol":0,"prop":0,"className":"htLeft"},{"row":2,"col":1,"visualRow":2,"visualCol":1,"prop":1,"className":"htLeft"},{"row":2,"col":2,"visualRow":2,"visualCol":2,"prop":2,"className":"htLeft"},{"row":3,"col":0,"visualRow":3,"visualCol":0,"prop":0,"className":"htLeft"},{"row":3,"col":1,"visualRow":3,"visualCol":1,"prop":1,"className":"htLeft"},{"row":3,"col":2,"visualRow":3,"visualCol":2,"prop":2,"className":"htLeft"},{"row":4,"col":0,"visualRow":4,"visualCol":0,"prop":0,"className":"htLeft"},{"row":4,"col":1,"visualRow":4,"visualCol":1,"prop":1,"className":"htLeft"},{"row":4,"col":2,"visualRow":4,"visualCol":2,"prop":2,"className":"htLeft"},{"row":5,"col":0,"visualRow":5,"visualCol":0,"prop":0,"className":"htLeft"},{"row":5,"col":1,"visualRow":5,"visualCol":1,"prop":1,"className":"htLeft"},{"row":5,"col":2,"visualRow":5,"visualCol":2,"prop":2,"className":"htLeft"},{"row":6,"col":0,"visualRow":6,"visualCol":0,"prop":0,"className":"htLeft"},{"row":6,"col":1,"visualRow":6,"visualCol":1,"prop":1,"className":"htLeft"},{"row":6,"col":2,"visualRow":6,"visualCol":2,"prop":2,"className":"htLeft"}],[{"row":0,"col":0,"top":{"hide":true},"right":{"hide":true},"bottom":{"hide":true},"left":{"hide":true},"border":{"width":1,"color":"#000","cornerVisible":false}}],[]]</textarea><textarea data-jtrt-table-id="138" id="jtrt_table_bps_138" cols="30" rows="10">[]</textarea></div><table id="jtrt_table_138" data-sorting="false" data-paging="false" data-paging-size="10" data-filtering="false" data-jtrt-table-id="138" class="table table-bordered table-striped jtrt-table"><thead><tr><th class="htLeft col-sm-4 col-xs-4">Type</th><th class="htLeft">Win/Loss</th><th class="htLeft col-sm-4 col-xs-4">Win Condition 1</th></tr></thead><tbody><tr><td class="htLeft">Knockout - Single Elimination</td><td class="htLeft">Win 2, Loss 1</td><td class="htLeft">Every player out of 11 players plays till he loses 1 match</td></tr><tr><td class="htLeft">Activity Based Tournament</td><td class="htLeft">Win 2, Loss 0</td><td class="htLeft">Player can play as many matches as they want to</td></tr><tr><td class="htLeft">Triple Elimination</td><td class="htLeft">Win 2, Loss 1</td><td class="htLeft">Player can’t play beyond 3 losses</td></tr><tr><td class="htLeft">Team “n” Elimination</td><td class="htLeft">Win 2, Loss 1</td><td class="htLeft">As a team you can’t lose more than “n” matches</td></tr><tr><td class="htLeft">Run-rate based tourneys</td><td class="htLeft"></td><td class="htLeft"></td></tr><tr><td class="htLeft">Wicket Strike-rate based tourneys</td><td class="htLeft"></td><td class="htLeft"></td></tr></tbody></table></div></div>
+					                        </div>
+					                    </div>
+					                </div>
+					                <div class="panel ">
+					                    <div class="panel-heading ">
+					                        <h4 class="panel-title">
+					        					<a data-toggle="collapse" data-parent="#bs-collapse" href="#seven">
+					          					What's the catch? How does GoLive make money?<i class="fa fa-plus-circle"></i>
+					        					</a>
+					      					</h4>
+					                    </div>
+					                    <div id="seven" class="panel-collapse collapse">
+					                        <div class="panel-body">
+					                            <ul style="padding-left: 20px;">
+													<li style="font-weight: 400;"><span style="font-weight: 400;">GoLive collects a tournament organization fee per tournament </span></li>
+												<!--	<li style="font-weight: 400;"><span style="font-weight: 400;">Tournament fees are 20% total entry fee paid</span></li>  -->
+												</ul>
+					                        </div>
+					                    </div>
+					                </div>
+                <!-- end of panel -->
+            					</div>
+            				</div>	
+            <!-- end of #bs-collapse  -->
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-12 col-xs-12 cricket-padding-remove cricket-FAQ-order">
+						<div class="col-sm-12 cricket-FAQ-image">
+							<img src="images/02.png">
+						</div>
+					</div>
+				</div>
+			</div>	
+		</section>
+		<footer class="col-sm-12 cricket-padding-remove cricket-footer">
+			<div class="container cricket-padding-remove">
+				<div class="col-sm-12 cricket-padding-remove cricket-footer-container">
+					<div class="col-md-4 col-sm-6 col-xs-12 cricket-padding-remove">
+						<div class="col-sm-12 cricket-padding-remove cricket-footer-textwidget">
+							<p><a href="http://golive.games/"><img class="alignnone wp-image-4064 size-full" src="images/GoLive-logo.png" alt="" width="154" height="60"></a></p>
+							<p>GoLive Games is the world’s favourite game publisher of casual and mid-core games.</p>
+							<p><a>info@golive.games</a></p>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-12 cricket-padding-remove">
+						<div class="col-sm-12 cricket-padding-remove cricket-footer-textwidget padding-bottom-100-px">
+							<h4>Switzerland</h4>
+							<p class="fadd">GoLive Games Studios AG, Baarerstrasse 8, 6300 Zug.</p>
+						</div>
+					</div>
+					<!-- <div class="col-md-3 col-sm-6 col-xs-12 cricket-padding-remove">
+						<div class="col-sm-12 cricket-padding-remove cricket-footer-textwidget">
+							<h4>India</h4>
+							<p class="fadd">106, Vindhya C5, IIIT Hyderabad, Gachibowli, Hyderabad, Telangana – 500032.</p>
+						</div>
+					</div> -->
+					<div class="col-md-4 col-sm-6 col-xs-12 cricket-padding-remove">
+						<div class="col-sm-12 cricket-padding-remove cricket-footer-list">
+							<ul class="cricket-footer-menu-list">
+								<li><a href="#howToWork">How it Works</a></li>
+								<li><a href="#aboutUs">About the Game</a></li>
+								<!-- <li><a href="#leagues">Leagues</a></li> -->
+								<li><a href="#gameBenefits">Benefits</a></li>
+								<li><a href="#gameFaq">FAQ</a></li>
+								<li><a href="register.html">Register</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="col-sm-12 cricket-padding-remove cricket-sub-footer">
+				<div class="container cricket-padding-remove">
+					<div class="cricket-footer-info">©2018 GoLive Games</div>
+				</div>
+			</section>
+		</footer>
+	</div>
+	<script type="text/javascript" src="js/accordion.js"></script>
+	<script src="js/jquery.malihu.PageScroll2id.js"></script>
+	<script type="text/javascript">
+		 $(document).ready(function () {
+            $('.collapse.in').prev('.panel-heading').addClass('active');
+            $('#accordion, #bs-collapse')
+                .on('show.bs.collapse', function (a) {
+                    $(a.target).prev('.panel-heading').addClass('active');
+                })
+                .on('hide.bs.collapse', function (a) {
+                    $(a.target).prev('.panel-heading').removeClass('active');
+                });
+
+            $('.hamburger').on('click',function(){
+				if(!$('header .menu').is(':visible')){
+					$('header .menu').slideDown();
+				}else{
+					$('header .menu').slideUp();
+				}
+			})
+/*****************Sc**********************************/ 
+
+			function scrollNav() {
+			  $('.nav a').click(function(){  
+			    //Toggle Class
+			    $(".active").removeClass("active");      
+			    $(this).closest('li').addClass("active");
+			    var theClass = $(this).attr("class");
+			    $('.'+theClass).parent('li').addClass('active');
+			    //Animate
+			    $('html, body').stop().animate({
+			        scrollTop: $( $(this).attr('href') ).offset().top - 0
+			    }, 400);
+			    return false;
+			  });
+			  $('.scrollTop a').scrollTop();
+			}
+			scrollNav();
+        });
+	</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="js/navShrink.js"></script>
+    <script type="text/javascript">
+        //Init the plugin
+        $(document).ready(function() {
+            
+            //enable navishrink
+            var shrinker = $('.navbar').navShrink({
+                bgInitColor: 'rgba(62,161,218,1)',
+                fadeEnable: true,
+                responsiveEnable: true
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+.sreenivash-resume-project{
+	width: 100%;
+	overflow: hidden;
+}
+.sreenivash-resume-project-one{
+	width: 70%;
+	margin: 0 auto;
+	padding: 60px 0 0 0;
+}
+.sreenivash-resume-project-one h1{
+	margin: 0;
+	font-family: 'bebas_neuebold';
+	/*text-align: center;*/
+	color: #5c709a;
+}
+.sreenivash-resume-project-one h2{
+	margin: 0;
+	font-family: 'bebas_neuebold';
+	color: #fff;
+	padding: 10px 0 15px 25px;
+}
+.sreenivash-resume-project-one h4{
+	margin: 0;
+	font-family: 'bebas_neuebold';
+	color: #fff;	
+	padding: 5px 0 15px 25px;
+}
+.sreenivash-resume-project-one h6{
+	color:#74716f;
+	margin: 0;
+	font-family: 'robotobold';
+	padding: 5px 0 15px 25px;
+}
+.sreenivash-resume-project-one p{
+	font-family: 'robotoregular';
+	color: #fff;
+	padding: 5px 0 15px 25px;
+}
+.sreenivash-resume-project-programming h3{
+	margin: 0;
+	color: #fff;
+	font-family: 'bebas_neuebook';
+	padding: 20px 0 15px 25px;
+}
+.sreenivash-resume-project-programming p{
+	font-family: 'robotoregular';
+	color: #fff;
+	/*padding: 5px 0 15px 25px;*/
+	padding: 5px 0 5px 50px;
+}
+.sreenivash-resume-project-role-content p{
+	font-family: 'robotoregular';
+	color: #fff;
+	/*padding: 5px 0 15px 25px;*/
+	padding: 5px 0 5px 50px;
+}
+.sreenivash-resume-project-one button{
+	background: #5c709a;
+    border: 0;
+    color: #fff;
+    border-radius: 3px;
+    font-family: 'robotobold';
+    padding: 10px 25px;
+    font-size: 20px;
+    float: right;
+}
+@media (min-width: 480px) and (max-width: 767px){
+	.sreenivash-resume-project-one button{
+		padding: 4px 15px;
+		font-size: 14px;
+	}
+}
+@media (min-width: 320px) and (max-width: 479px){
+	.sreenivash-resume-project-one button{
+		padding: 4px 15px;
+		font-size: 12px;
+	}
+}

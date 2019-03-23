@@ -1,0 +1,1425 @@
+*{
+    margin:0px;
+    padding:0px;
+    height:auto;
+}
+body{
+    font-family: 'Open Sans', sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+}
+.cricket-padding-remove{
+    padding: 0 !important;
+}
+.cricket-container{
+    overflow: hidden;
+}
+.clearfix{
+    clear: both;
+}/*
+.cricket-header{
+    position: fixed;
+    background-color: #3ea1da;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    box-shadow: 0 1px 0 rgba(0,0,0,.1);
+    font-weight: 500;
+    line-height: 23px;
+}*/
+.container{
+    text-align: left;
+    width: 80% !important;
+    margin: 0 auto;
+        z-index: 99;
+}
+/*.cricket-logo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+.cricket-logo a{
+    color: #2ea3f2;
+    text-decoration: none;
+}
+.cricket-logo a:hover {
+    text-decoration: none;
+}
+.cricket-menu{
+    padding-top: 27px;
+}/*
+.navbar-default{
+    background: transparent !important;
+    border-color: transparent !important;
+    border: none !important;
+}*/
+/*.navbar {
+    margin-bottom: 0px !important;
+}*/
+/*.navbar-nav > li{
+    display: inline-block;
+    padding-right: 22px;
+    font-size: 14px;
+    word-wrap: break-word;
+}
+.navbar-nav > li:last-child{
+    padding-right: 0;
+}
+.navbar-nav > li > a{
+    padding: 0 !important;
+    color: #fff !important;
+    padding-bottom: 33px !important;
+    display: block;
+    position: relative;
+    font-weight: 600;
+    text-decoration: none;
+}
+.navbar-nav > li > a:hover{
+    opacity: .7;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background: transparent !important; 
+    text-decoration: none;
+}*/
+
+/*#main-header.et-fixed-header {
+    -webkit-box-shadow: 0 0 7px rgba(0,0,0,.1)!important;
+    -moz-box-shadow: 0 0 7px rgba(0,0,0,.1)!important;
+    box-shadow: 0 0 7px rgba(0,0,0,.1)!important;
+}*/
+.cricket-search{
+    float: right;
+    padding-left: 18px;
+}
+/*.navbar-right{
+    margin: 0 !important;
+    display: block;
+}*/
+.fa-search{
+    color: #fff;
+    font-size: 14px;
+}
+.cricket-banner-information{
+    overflow: hidden;
+    clear: both;
+    height: 112vh;
+}
+.cricket-banner-images{
+    overflow: hidden;
+    background-image: url(../images/hero-background.jpg);
+    padding-top: 85px !important;
+    /*padding-right: 0px;*/
+    padding-bottom: 126px !important;
+    /*padding-left: 0px;*/
+    background-position: center;
+    /*-webkit-background-size: 100%;*/
+    -webkit-background-size: cover;
+    /*-moz-background-size: 100%;*/
+    -moz-background-size: cover;
+    /*background-size: 100%;*/
+    background-size: cover;
+     background-repeat:no-repeat;
+    /*background-repeat: no-repeat;*/
+    /*background-size: auto;*/
+    height: 100%;
+    /*top: 80px;*/
+}
+/*.navbar-brand{
+    padding: 0;
+    margin: 0;
+    width: 186px;
+    height: auto;
+    top: -10px;
+    position: relative;
+}*/
+.hamburger {
+    width: 23px;
+    float: right;
+    cursor: pointer;
+    margin-top: 20px
+}
+.hamburger span {
+    display: block;
+    margin: 5px 0 0 0;
+    height: 2px;
+    border-radius: 8px;
+    background: #fff;
+}
+.hamburger{
+    display: none;
+}
+.cricket-register{
+    clear: both;
+    float: right;
+}
+.cricket-register button {
+  /*background: #1d1d1d;*/
+  /*color: white;*/
+  /*border: none;*/
+  /*font-size: 10px;*/
+  /*font-size: 1rem;*/
+  /*background-color: #1d1d1d;*/
+  /*letter-spacing: 1.5px;*/
+  text-transform: uppercase;
+  padding: 10px 21px;
+  /*padding: 1.4rem 2.1rem;*/
+  /*border: 2px solid #1d1d1d;*/
+  transition: color 0.1s cubic-bezier(0.16,0.08,0.355,1), background 0.1s cubic-bezier(0.16,0.08,0.355,1);
+  display: inline-block;
+  cursor: pointer;
+  /*width: 100%;*/
+  /*min-width: 200px;*/
+  /*min-width: 20rem;*/
+  outline: none !important;
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+      color: #ffffff!important;
+    border-width: 0px!important;
+    border-radius: 100px;
+    letter-spacing: 3px;
+    font-size: 24px;
+    font-style: italic!important;
+    background-color: #3ea1da;
+}
+/*.btn-border {
+  background-color: transparent;
+  color: #1d1d1d;
+}*/
+.btn-arrow {
+  position: relative;
+  transition: background-color 300ms ease-out;
+  border-radius: 50px;
+}
+.btn-arrow span {
+  display: inline-block;
+  position: relative;
+  transition: all 300ms ease-out;
+  will-change: transform;
+}
+.btn-arrow:hover span {
+  transform: translate3d(-1rem,0,0);
+}
+.btn-arrow .cricket-resigter-arrow {
+  position: absolute;
+  /*width: 1.1em;*/
+  font-size: 31px;
+  right: 0px;
+  right: 0rem;
+  opacity: 0;
+  top: 15px;
+  transform: translateY(-50%);
+  transition: all 300ms ease-out;
+  will-change: right, opacity;
+}
+.btn-arrow .cricket-resigter-arrow {
+  stroke-width: 5;
+  stroke-color: transparent;
+}
+.btn-arrow:hover .cricket-resigter-arrow {
+  opacity: 1;
+  right: -2rem;
+}
+/*.cricket-register button{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.cricket-register button{
+        color: #ffffff!important;
+    border-width: 0px!important;
+    border-radius: 100px;
+    letter-spacing: 1px;
+    font-size: 22px;
+    font-style: italic!important;
+    background-color: #3ea1da;
+    outline: none;
+    transition: all 0.5s;
+    cursor: pointer;
+    padding: 11px 25px !important;
+}
+.cricket-register .right-arrow{
+    display: inline-block;
+}
+.right-arrow:after, .right-arrow:before {
+    position: absolute;
+    font-weight: 400;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    transition: all .2s;
+}
+.cricket-register .fa-angle-right{
+    font-size: 28px;
+    transition: 0.5s;
+    display: none;
+    text-align: right;
+}
+.right-arrow:after, .right-arrow:before {
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.cricket-register button:hover{
+    padding: 6px 30px 6px .7em;
+}
+.cricket-register button:hover .fa-angle-right{
+    display: block;
+    right: -10px;
+}*/
+.cricket-logo-shadow{
+    padding-top: 23px !important;
+    padding-bottom: 47px !important;
+    clear: both;
+}    
+.cricket-howtowork{
+    overflow: hidden;
+    clear: both;
+    padding: 4% 0 !important;
+}
+.cricket-howtowork-section{
+    padding: 2% 0 !important;
+}
+.cricket-howtowork-header{
+    padding: 2% 0 !important;
+}
+.cricket-howtowork-header h1{
+    /*font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;*/
+    font-size: 46px;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #333;
+    line-height: 1.3em;
+}
+.cricket-howtowork-section-player{
+    
+}
+.cricket-howtowork-section-player h3{
+    font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 600;   
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 1.3em;
+    padding-bottom: 10px;
+    margin: 0;
+}
+.cricket-howtowork-section-player ul{
+    padding: 0 0 23px 1em;
+    line-height: 26px;
+    list-style-type: disc;
+    color: #666;
+}
+.cricket-player-width{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 9.27%;
+}
+.cricket-player-winner{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+.cricket-about-us{
+    background-color: #155577!important;
+    padding: 4% 0 !important;
+     display: flex;
+  flex-direction: column;
+    
+}
+.cricket-about-us-content{
+    padding: 18% 10% !important;
+}
+.cricket-about-us-mobile{
+    margin-right: 5.5%;
+}
+.cricket-about-us-content h1{
+    margin: 0;
+    color: #fff!important;
+    font-size: 46px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    line-height: 1.3em;
+}
+.cricket-about-us-content p{
+    color: #fff;
+}
+.cricket-about-us-content ul{
+    color: #fff;
+    padding: 0 0 0 15px;
+}
+.cricket-leagues{
+    overflow: hidden;
+    clear: both;
+    padding: 4% 0 !important;
+    display: none;
+}
+.cricket-leagues-header{
+    padding: 2% 0 !important;
+}
+.cricket-leagues-header h1{
+    font-size: 46px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.cricket-leagues-stars{
+    width: 192px;
+    height: 192px;
+    margin: 0 auto;
+}
+.cricket-leagues-content{
+    clear: both;
+    margin-top: 9.27%;
+}
+.cricket-leagues-content h2{
+    font-size: 23px;
+    margin: 0;
+    letter-spacing: 2px;
+    line-height: 1.3em;
+    padding-bottom: 10px;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+}
+.cricket-bill-gates{
+    overflow: hidden;
+    clear: both;
+    /*height: 55vh;*/
+}
+.cricket-bill-gates-bg-image{
+    background-image: url(../images/hero-background.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+     background-repeat:no-repeat;
+    height: 100%;
+}
+.cricket-bill-gates-bg-image-css{
+    background-attachment: fixed;
+}
+.cricket-bill-gates-padding{
+    padding: 4% 0 !important;
+}
+.cricket-bill-gates-container{
+    padding: 2% 0 !important;   
+}
+.cricket-bill-gates-content{
+    background: #fff;
+    padding: 30px !important;
+    border-radius: 6px;
+    text-align: center;
+}
+.cricket-bill-gates-content p{
+    font-size: 32px;
+    letter-spacing: 2px;
+    padding-bottom: 1em;
+    color: #666;
+}
+.cricket-bill-gates-content h2{
+    font-size: 32px;
+    letter-spacing: 2px;
+    display: block;
+    margin-top: 16px;
+    font-weight: 700;
+    color: #666;
+}
+.cricket-benefits{
+    padding: 4% 0 !important;
+}
+.cricket-benefits-container{
+    padding: 2% 0 !important;
+}
+.cricket-benefits h1{
+    font-size: 46px;
+    letter-spacing: 2px;
+    line-height: 1.3em;
+    padding-bottom: 10px;
+    color: #333;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 2.75%;
+}
+/********silver**********/
+.cricket-benefits-silver{
+    position: relative;
+    margin: 30px -1px 0 0;
+    padding-bottom: 30px;
+    border: 1px solid #bebebe;
+    background-color: #fcfcfc;
+    text-align: center;
+    border-radius: 6px 6px 6px 6px;
+    overflow: hidden;
+}
+.cricket-benefits-silver-header{
+    background-color: #c5c5ce;
+    position: relative;
+    margin-bottom: 17px;
+    padding: 10px 0;
+}
+.cricket-benefits-silver-header h2{
+    font-size: 32px!important;
+    margin: 0;
+    padding-bottom: 5px;
+    color: #fff;
+    text-align: center;
+}
+.cricket-benefits-silver-header span{
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.cricket-benefits-silver-top-content{
+    position: relative;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #bebebe;
+}
+.benefits-span{
+    color: #999;
+    font-size: 16px;
+}
+.benefits-dollar-sign{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+}
+.benefits-sum{
+    font-size: 54px;
+    color: #155577!important;
+    font-weight: 300 !important;
+    line-height: 1.03em;
+}
+.cricket-benefits-silver-content{
+    position: relative;
+    padding: 30px !important;
+}
+.cricket-benefits-silver-content-list{
+    padding: 0!important;
+    line-height: inherit!important;
+    list-style: none!important;
+}
+.cricket-benefits-silver-content-list li{
+    position: relative;
+    padding: 0 0 1.6em 14px;
+    line-height: 1.6em;
+}
+.cricket-benefits-silver-content-list li p{
+    margin-bottom: 0;
+    color: #666!important;
+}
+.cricket-benefits-silver-content-list li span{
+    position: relative;
+}
+.cricket-benefits-silver-content-list li span:before {
+    border-color: #ffffff;
+    position: absolute;
+    top: 9px;
+    left: -14px;
+    border-width: 3px;
+    border-style: solid;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    content: "";
+}
+/*********platinum*******/
+.cricket-benefits-platinum{
+    position: relative;
+    /*margin: 0;*/
+    /*padding-bottom: 20px !important;*/
+    border: 1px solid #bebebe;
+    /*background-color: #fcfcfc !important;*/
+    text-align: center;
+    border-radius: 6px 6px 6px 6px;
+    overflow: hidden;
+    margin: 30px 0 0 -1px;
+}
+.cricket-benefits-platinum-header{
+    background-color: #8e8f9f;
+    position: relative;
+    margin-bottom: 17px;
+    padding: 10px 0;
+}
+.cricket-benefits-platinum-header h2{
+    font-size: 32px!important;
+    margin: 0;
+    padding-bottom: 5px;
+    color: #fff;
+    text-align: center;
+}
+.cricket-benefits-platinum-header span{
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.cricket-benefits-platinum-top-content{
+    position: relative;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #bebebe;
+}
+.benefits-span{
+    color: #999;
+    font-size: 16px;
+}
+.benefits-dollar-sign{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+}
+.benefits-sum{
+    font-size: 54px;
+    color: #155577!important;
+    font-weight: 300 !important;
+    line-height: 1.03em;
+}
+.cricket-benefits-platinum-content{
+    position: relative;
+    padding: 30px !important;
+}
+.cricket-benefits-platinum-content-list{
+    padding: 0!important;
+    line-height: inherit!important;
+    list-style: none!important;
+}
+.cricket-benefits-platinum-content-list li{
+    position: relative;
+    padding: 0 0 1.6em 14px;
+    line-height: 1.6em;
+}
+.cricket-benefits-platinum-content-list li span{
+    position: relative;
+}
+.cricket-benefits-platinum-content-list li span:before {
+    border-color: #ffffff;
+    position: absolute;
+    top: 9px;
+    left: -14px;
+    border-width: 3px;
+    border-style: solid;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    content: "";
+}
+.cricket-benefits-platinum-content-list li p{
+    margin-bottom: 0;
+    color: #666!important;
+}
+/******Gold*******/
+.cricket-benefits-gold{
+    position: relative;
+    /*margin: 30px 0 0 -1px;*/
+    padding-bottom: 30px;
+    border: 1px solid #bebebe;
+    background-color: #fcfcfc;
+    text-align: center;
+    border-radius: 6px 6px 6px 6px;
+    overflow: hidden;
+}
+.cricket-benefits-gold-header{
+    /*background-color: #8e8f9f;*/
+    background-color: #dcbb38;
+    position: relative;
+    margin-bottom: 17px;
+    padding: 10px 0;
+}
+.cricket-benefits-gold-header h2{
+    font-size: 32px!important;
+    margin: 0;
+    padding-bottom: 5px;
+    color: #fff;
+    text-align: center;
+}
+.cricket-benefits-gold-header span{
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.cricket-benefits-gold-top-content{
+    position: relative;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #bebebe;
+}
+.benefits-span{
+    color: #999;
+    font-size: 16px;
+}
+.benefits-dollar-sign{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+}
+.benefits-sum{
+    font-size: 54px;
+    color: #155577!important;
+    font-weight: 300 !important;
+    line-height: 1.03em;
+}
+.cricket-benefits-gold-content{
+    position: relative;
+    padding: 30px !important;
+}
+.cricket-benefits-gold-content-list{
+    padding: 0!important;
+    line-height: inherit!important;
+    list-style: none!important;
+}
+.cricket-benefits-gold-content-list li{
+    position: relative;
+    padding: 0 0 1.6em 14px;
+    line-height: 1.6em;
+}
+.cricket-benefits-gold-content-list li span{
+    position: relative;
+}
+.cricket-benefits-gold-content-list li span:before {
+    border-color: #ffffff;
+    position: absolute;
+    top: 9px;
+    left: -14px;
+    border-width: 3px;
+    border-style: solid;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    content: "";
+}
+.cricket-benefits-gold-content-list li p{
+    margin-bottom: 0;
+    color: #666!important;
+}
+.cricket-FAQ{
+    background-color: #155577!important;
+    padding: 4% 0 !important;
+}
+.cricket-FAQ-content{
+    padding: 6% 0 !important;
+    display: flex;
+}
+.cricket-FAQ-header{
+    padding: 2% 0 !important;
+}
+.cricket-FAQ-header h1{
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 1.3em;
+    font-size: 46px;
+    padding-bottom: 10px;
+    color: #fff;
+    font-weight: 500;
+}
+/**********************************/
+        .wrap {
+            box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+            border-radius: 4px;
+        }
+        
+        a:focus,
+        a:hover,
+        a:active {
+            outline: 0;
+            text-decoration: none;
+        }
+        
+        .panel {
+            border-width: 0 0 1px 0;
+            border-style: solid;
+            border-color: #fff;
+            background: none;
+            box-shadow: none;
+        }
+        
+        .panel:last-child {
+            border-bottom: none;
+        }
+        
+        .panel-group > .panel:first-child .panel-heading {
+            /*border-radius: 4px 4px 0 0;*/
+                
+        }
+        
+        
+        
+        .panel-group .panel + .panel {
+            margin-top: 0 !important;
+        }
+        
+        .panel-heading {
+            border-radius: 0;
+            border: none;
+            color: #fff;
+            padding: 0 !important;
+            border-radius: 0 !important;
+        }
+        
+        .panel-title a {
+            display: block;
+            padding: 20px;
+            position: relative;
+            font-weight: 400;
+            background: #fff !important;
+            color: #000 !important;
+            font-size: 14px !important;
+            word-wrap: break-word;
+            letter-spacing: 2px;
+            line-height: 1.3em;
+        }
+        .panel-group .panel{
+            border-radius: 0 !important;
+        }
+        .panel-title a{
+            border-radius: 0;
+        }
+        .panel-group .panel:nth-child(1){
+            /*border-radius: 0 !important;*/
+            border-top-left-radius: 6px !important;
+            border-top-right-radius: 6px !important;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+        .panel-title a:nth-child(1){
+            border-top-left-radius: 6px !important;
+                border-top-right-radius: 6px !important;
+                border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+        .panel-group .panel:nth-last-child(1){
+            /*border-radius: 0 !important;*/
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            border-bottom-left-radius: 6px !important;
+            border-bottom-right-radius: 6px !important;
+        }
+        .panel-title a:nth-last-child(1){
+            border-top-left-radius: 0;
+                border-top-right-radius: 0;
+                border-bottom-left-radius: 6px !important;
+            border-bottom-right-radius: 6px !important;
+        }
+        /*.panel-title a:last-child{
+            border-bottom-left-radius: 6px !important;
+                border-bottom-right-radius: 6px !important;
+        }*/
+        .panel-body {
+            background: #fff;
+        }
+        
+        .panel:last-child .panel-body {
+            /*border-radius: 0 0 4px 4px;*/
+        }
+        
+        .panel:last-child .panel-heading {
+            /*border-radius: 0 0 4px 4px;*/
+            /*transition: border-radius 0.3s linear 0.2s;*/
+        }
+        
+        .panel:last-child .panel-heading.active {
+            border-radius: 0;
+            /*transition: border-radius linear 0s;*/
+        }
+        /* #bs-collapse icon scale option */
+        
+        /*.panel-heading a:before {
+            content: '\e146';
+            position: absolute;
+            font-family: 'Material Icons';
+            right: 5px;
+            top: 10px;
+            font-size: 24px;
+            transition: all 0.5s;
+            transform: scale(1);
+        }*/
+        
+        .panel-heading:hover a{
+            text-decoration: none !important;
+        }
+        .fa-plus-circle{
+            float: right;
+        }
+        .panel-body ol{
+            padding: 0 5px 0px !important;
+            line-height: 26px;
+            list-style-position: inside;
+            list-style-type: decimal;
+            margin-bottom: 0 !important;
+        }
+        .panel-group .panel-heading+.panel-collapse>.panel-body, .panel-group .panel-heading+.panel-collapse>.list-group{
+            border-top: 0 !important;
+        }
+        .panel{
+            border: 1px solid #d9d9d9 !important;
+        }
+        /*#bs-collapse .panel-heading a:after {
+            content: ' ';
+            font-size: 24px;
+            position: absolute;
+            font-family: 'Material Icons';
+            right: 5px;
+            top: 10px;
+            transform: scale(0);
+            transition: all 0.5s;
+        }*/
+        
+        /*#bs-collapse .panel-heading.active a:after {
+            content: '\e909';
+            transform: scale(1);
+            transition: all 0.5s;
+        }*/
+        /* #accordion rotate icon option */
+        
+        /*#accordion .panel-heading a:before {
+            content: '\e316';
+            font-size: 24px;
+            position: absolute;
+            font-family: 'Material Icons';
+            right: 5px;
+            top: 10px;
+            transform: rotate(180deg);
+            transition: all 0.5s;
+        }*/
+        
+        #accordion .panel-heading.active a:before {
+            transform: rotate(0deg);
+            transition: all 0.5s;
+        }
+        /*.panel-title a :focus{
+            text-decoration: none !important;
+        }
+*//*
+snippet from Animate.css - zoomIn effect
+*/
+.cricket-footer{
+    background: #222;
+    overflow: hidden;
+    clear: both;
+}
+.cricket-footer-container{
+    padding: 6% 0 4% !important;
+}
+.cricket-footer-textwidget{
+    padding-right: 60px !important
+}
+.cricket-footer-textwidget p{
+    padding-bottom: 1em;
+    color: #fff;
+}
+.cricket-footer-textwidget p a{
+    color: #fff !important;
+}
+.cricket-footer-textwidget h4{
+    color: #2ea3f2;
+    margin: 0;
+    font-size: 27px;
+    letter-spacing: 4px;
+    line-height: 1.3em;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+.cricket-footer-menu-list{
+    overflow: hidden;
+}
+.cricket-footer-menu-list li:before {
+    border-color: #2ea3f2 !important;
+    content: "• ";
+    color: #2ea3f2 !important;
+    font-size: 18px;
+}
+.cricket-footer-menu-list li{
+    position: relative;
+    padding-left: 14px;
+    margin-bottom: .5em;
+}
+.cricket-footer-menu-list li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 0 0 5px;
+}
+.cricket-sub-footer{
+    overflow: hidden;
+    /*background-color: #1f1f1f;*/
+    background-color: rgba(0,0,0,.32);
+    padding: 15px 0 5px !important;
+}
+.cricket-footer-info{
+    float: left;
+    padding-bottom: 10px !important;
+    color: #666;
+    text-align: left;
+}
+.shrink {
+  min-height: 35px;
+}
+.shrink .navbar-brand {
+  font-size: 25px;
+}
+.shrink a {
+  font-size: 15px;
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
+}
+.shrink .navbar-toggle {
+  margin: 8px 15px 8px 0;
+  padding: 4px 5px;
+}
+/*********************This is registiration page**************************/
+.cricket-registiration-page{
+    overflow: hidden;
+    clear: both;
+}
+.cricket-registiration-login{
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.cricket-registiration-page{
+    /*padding-bottom: 50px !important;*/
+}
+.cricket-registiration-form{
+    clear: both;
+}
+.cricket-form-header{
+    margin-bottom: 4.27%;
+}
+.cricket-form-header h2{
+    font-size: 23px;
+    letter-spacing: 2px;
+    line-height: 1.3em;
+    padding-bottom: 10px;
+    color: #333;
+    font-weight: 500;
+    margin: 0;
+}
+.cricket-form-header p{
+    margin-bottom: 0;
+    word-wrap: break-word;
+    color: #666;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.7em;
+}
+.cricket-form label{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+.form-control{
+    padding: 16px !important;
+    height: auto !important;
+    box-shadow: none !important;
+    background: #eee !important;
+    color: #999 !important;
+    border: none !important;
+        -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+input.text:focus, input.title:focus, input[type=text]:focus, select:focus, textarea:focus {
+    color: #3e3e3e;
+}
+.form-control:focus {
+    border-color: #66afe9 !important;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6) !important;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6) !important;
+}
+.cricket-registiration-form button{
+    padding: 24px 20px !important;
+    border-radius: 2px !important;
+    background-color: #3ea1da !important;
+    color: #ffffff !important;
+    font-size: 20px !important;
+    border: 2px solid #2ea3f2 !important;
+    /*float: left !important;*/
+    transition: all 0.3s ease-in-out !important;
+    line-height: 1px;
+}
+.cricket-search input[type="search"]{
+    width: 100%;
+    border: none !important;
+    border-bottom: 2px solid #fff !important;
+    background-color: transparent !important;
+    border-radius: 0 !important;
+
+}
+.alert-success {
+    background-color: #dff0d8;
+    border-color: #a3d48e;
+    color: #3c763d;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+input:required:invalid, input:focus:invalid {
+    border: 1px solid red;
+}
+.cricket-registiration-button{
+    clear: both;
+    overflow: hidden;
+}
+.intl-tel-input {
+    display: block !important;
+}
+.right-side-button{
+    float: right !important;
+}
+/******************Respsonsive*************************/
+@media (min-width: 768px ) and (max-width: 980px){
+    .hamburger{
+        display: block;
+    }
+    .navbar-header{
+        width: 100%;
+    }
+    .cricket-banner-images {
+     height: auto; 
+    }
+    .navbar-right{
+        display: none;
+    }
+    .cricket-search {
+        padding-left: 0;
+        padding-right: 26px;
+    }
+    .cricket-banner-information {
+        height: 100vh;
+    }
+    .cricket-howtowork-header h1 {
+        font-size: 36px;
+    }
+    .cricket-player-winner{
+        margin-bottom: 30px;
+    }
+    .cricket-about-us{
+        flex: 1;
+        flex-wrap: wrap;
+    }
+    .cricket-about-us-mobile-images{
+        -webkit-order: 2;
+        order: 2;
+    }
+    .cricket-about-us-mobile-content{
+        -webkit-order: 1;
+        order: 1;
+    }
+    .cricket-star-rating:nth-of-type(1){
+        -webkit-order: 3;
+        order: 3;
+    }
+    .cricket-star-rating:nth-of-type(2){
+        -webkit-order: 1;
+        order: 1;
+    }
+    .cricket-star-rating:nth-of-type(3){
+        -webkit-order: 2;
+        order: 2;
+    }
+    .cricket-leagues-stars {
+        width: 250px;
+        height: 250px;
+    }
+    .cricket-benefits-order:nth-of-type(1){
+        -webkit-order: 3;
+        order: 3;
+    }
+    .cricket-benefits-order:nth-of-type(2){
+        -webkit-order: 1;
+        order: 1;
+    }
+    .cricket-benefits-order:nth-of-type(3){
+        -webkit-order: 2;
+        order: 2;
+    }
+    .padding-bottom-100-px{
+        padding-bottom: 105px !important;
+    }
+    .cricket-about-us-content h1 {
+        font-size: 36px;
+    }
+    .cricket-about-us-content {
+        padding: 8% 5% !important;
+    }
+    header .menu {
+        display: none;
+        clear: both;
+        top: 100%;
+        position: absolute;
+        width: 80% !important;
+        margin: 0 auto;
+        z-index: 9;
+        background: #3ea1da;
+        padding: 4% 5% !important;
+        border-top: 3px solid #2ea3f2!important;
+    }
+    .menu li {
+        float: none !important;
+    }
+    .navbar-nav > li > a {
+        padding: 10px 5% !important;
+        border-bottom: 1px solid rgba(0,0,0,.03) !important;
+    }
+    .cricket-about-us-mobile{
+        margin-right: 0;
+        display: flex;
+    }
+    .cricket-about-us-mobile img{
+        width: 500px;
+        margin: 0 auto;
+    }
+    .cricket-bill-gates{
+        height: auto;
+    }
+    .cricket-FAQ-image img{
+        width: 500px;
+        margin: 0 auto;
+        display: block;
+    }
+    .cricket-registiration-login{
+        width: 100%;
+    }
+}
+@media (min-width: 480px ) and (max-width: 767px){
+    .hamburger{
+        display: block;
+    }
+    .navbar-right{
+        display: none;
+    }
+    .cricket-search {
+        padding-left: 0;
+        padding-right: 26px;
+    }
+    .cricket-banner-information {
+        height: 100vh;
+    }
+    .cricket-howtowork-header h1 {
+        font-size: 36px;
+    }
+    .cricket-player-winner{
+        margin-bottom: 30px;
+    }
+    .cricket-about-us{
+        flex: 1;
+        flex-wrap: wrap;
+    }
+    .cricket-about-us-mobile-images{
+        -webkit-order: 2;
+        order: 2;
+    }
+    .cricket-about-us-mobile-content{
+        -webkit-order: 1;
+        order: 1;
+    }
+    .cricket-star-rating:nth-of-type(1){
+        -webkit-order: 3;
+        order: 3;
+    }
+    .cricket-star-rating:nth-of-type(2){
+        -webkit-order: 1;
+        order: 1;
+    }
+    .cricket-star-rating:nth-of-type(3){
+        -webkit-order: 2;
+        order: 2;
+    }
+    .cricket-leagues-stars {
+        width: 250px;
+        height: 250px;
+    }
+    .cricket-benefits-order:nth-of-type(1){
+        -webkit-order: 3;
+        order: 3;
+    }
+    .cricket-benefits-order:nth-of-type(2){
+        -webkit-order: 1;
+        order: 1;
+    }
+    .cricket-benefits-order:nth-of-type(3){
+        -webkit-order: 2;
+        order: 2;
+    }
+    .padding-bottom-100-px{
+        padding-bottom: 0px !important;
+    }
+    .cricket-about-us-content h1 {
+        font-size: 36px;
+    }
+    .cricket-about-us-content {
+        padding: 8% 5% !important;
+    }
+    .cricket-footer-menu-list li {
+        position: relative;
+        padding-left: 0;
+    }
+    header .menu {
+        display: none;
+        clear: both;
+        top: 100%;
+        position: absolute;
+        width: 80% !important;
+        margin: 0 auto;
+        z-index: 9;
+        background: #3ea1da;
+        padding: 4% 5% !important;
+        border-top: 3px solid #2ea3f2!important;
+    }
+    .menu li {
+        float: none !important;
+    }
+    .navbar-nav > li > a {
+        padding: 10px 5% !important;
+        border-bottom: 1px solid rgba(0,0,0,.03) !important;
+    }
+    .cricket-bill-gates{
+        display: initial;
+    }
+    .cricket-about-us-mobile{
+        margin-right: 0;
+    }
+    .cricket-registiration-login{
+        width: 100%;
+    }
+}
+@media (min-width: 320px ) and (max-width: 479px){
+    .cricket-header{
+        padding: 12px 0 !important;
+    }
+    .hamburger{
+        display: block;
+        margin: 15px 0 0 0;
+    }
+    .cricket-register {
+        padding: 25px 0 0 0;
+    }
+    .navbar-brand {
+        width: 128px !important;
+        top: -12px !important;
+    }
+    .navbar-right{
+        display: none;
+    }
+    .cricket-search {
+        padding-left: 0;
+        padding-right: 10px;
+        margin: -8px 0 0 0;
+        font-size: 18px;
+    }
+    .cricket-banner-information {
+        height: 100vh;
+    }
+    .cricket-banner-images {
+        padding-top: 42px !important;
+    }
+    .cricket-howtowork-header h1 {
+        font-size: 36px;
+    }
+    .cricket-player-winner{
+        margin-bottom: 30px;
+    }
+    .cricket-about-us-mobile{
+        margin-right: 0 !important;
+    }
+    .cricket-about-us{
+        flex: 1;
+        flex-wrap: wrap;
+    }
+    .cricket-about-us-mobile-images{
+        -webkit-order: 2;
+        order: 2;
+    }
+    .cricket-about-us-mobile-content{
+        -webkit-order: 1;
+        order: 1;
+    }
+    .cricket-star-rating:nth-of-type(1){
+        -webkit-order: 3;
+        order: 3;
+    }
+    .cricket-star-rating:nth-of-type(2){
+        -webkit-order: 1;
+        order: 1;
+    }
+    .cricket-star-rating:nth-of-type(3){
+        -webkit-order: 2;
+        order: 2;
+    }
+    .cricket-leagues-stars {
+        width: 150px;
+        height: 150px;
+    }
+    .cricket-bill-gates{
+        display: initial;
+    }
+    .cricket-margin-bottom{
+        margin-bottom: 20px;
+    }
+    .cricket-benefits-order:nth-of-type(1){
+        -webkit-order: 3;
+        order: 3;
+    }
+    .cricket-benefits-order:nth-of-type(2){
+        -webkit-order: 1;
+        order: 1;
+    }
+    .cricket-benefits-order:nth-of-type(3){
+        -webkit-order: 2;
+        order: 2;
+    }
+    .cricket-padding-FAQ{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .padding-bottom-100-px{
+        padding-bottom: 0px !important;
+    }
+    .cricket-about-us-content h1 {
+        font-size: 36px;
+    }
+    .cricket-about-us-content {
+        padding: 8% 5% !important;
+    }
+    .cricket-footer-menu-list li {
+        position: relative;
+        padding-left: 0;
+    }
+    header .menu {
+        display: none;
+        clear: both;
+        top: 100%;
+        position: absolute;
+        width: 80% !important;
+        margin: 0 auto;
+        z-index: 9;
+        background: #3ea1da;
+        padding: 4% 5% !important;
+        border-top: 3px solid #2ea3f2!important;
+    }
+    .menu li {
+        float: none !important;
+    }
+    .navbar-nav > li > a {
+        padding: 10px 5% !important;
+        border-bottom: 1px solid rgba(0,0,0,.03) !important;
+    }
+    .cricket-registiration-login{
+        width: 100%;
+    }
+}

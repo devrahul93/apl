@@ -1,0 +1,99 @@
+.navbar {
+    margin-bottom: 0px;
+}
+.navbar-default {
+    background: rgba(0, 0, 0, 0.0);
+    border: none;
+    /*background: #3ea1da !important;*/
+}
+
+a.navbar-brand {
+    padding-top: 20px;
+}
+
+a.navbar-brand img {
+    height: 43px;
+    width: auto;
+}
+
+@media (min-width: 768px ) and (max-width: 980px){
+    a.navbar-brand {
+        /*padding-top: 10px;*/
+    }
+    a.navbar-brand img {
+        width: auto;
+        height: 43px;
+    }
+}
+
+.navbar-toggle {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.navbar-default .navbar-nav>li{
+    /*padding-top: 30px;*/
+    /*padding-bottom: 30px;*/
+}
+.navbar-default .navbar-nav>li>a{
+    /*padding-top: 30px;*/
+    /*padding-bottom: 30px;*/
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 0px;
+    padding-left: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.dropdown-menu {
+    background: rgba(0, 0, 01);
+    border-radius: 0;
+    border: none;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border: none;
+}
+.navbar-nav {
+    margin: 0;
+}
+.navbar-default .navbar-toggle {
+    border-color: rgba(255, 255, 255, .4);
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: rgba(255, 255, 255, .6);
+}
+
+.navbar-nav>li>.dropdown-menu {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 80px;
+}
+.navbar-default .navbar-nav>li>a:focus{
+    color: white !important;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: transparent !important;
+    color: white !important;
+}
+.error-input-value{
+    border-color: #a94442 !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075); 
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    color: #B94A48 !important;
+    background-color: #F2DEDE !important;
+}
+
+
+.error_message_login{
+    color: #a94442;
+}
