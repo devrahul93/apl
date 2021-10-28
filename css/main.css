@@ -7,13 +7,17 @@
     /*background: #3ea1da !important;*/
 }
 
+.logo{
+    opacity: 2;
+    filter: brightness(120%);
+}
 a.navbar-brand {
     padding-top: 20px;
 }
 
 a.navbar-brand img {
     height: 43px;
-    width: auto;
+    width: 2em;
 }
 
 @media (min-width: 768px ) and (max-width: 980px){
